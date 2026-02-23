@@ -1,0 +1,15 @@
+<svg width="500" height="500" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <path d="M128 96 
+           H384 
+           V176 
+           H256 
+           V224 
+           H384 
+           V416 
+           H128 
+           V336 
+           H256 
+           V288 
+           H128 
+           Z" fill="#cacaca"></path>
+</svg>
