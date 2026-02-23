@@ -100,20 +100,3 @@ document.addEventListener("DOMContentLoaded", () => {
   MouseMove();
   AOS.refresh();
 });
-
-// Loader
-window.addEventListener("load", () => {
-  const loader = document.querySelector(".loader-overlay");
-  const content = document.querySelector(".page-wrpr");
-
-  setTimeout(() => {
-    loader.classList.add("curtain-up");
-
-    setTimeout(() => {
-      loader.style.display = "none";
-      content.classList.remove("cntnthidden");
-      AOS.init();
-      AOS.refreshHard();
-    }, 1000);
-  }, 2000);
-});
